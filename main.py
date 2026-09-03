@@ -1,9 +1,6 @@
 from pyscript import display, document
 
-from rich import print
-
 display("Look at what I used!", target="div1")
-print([rgb (52, 130, 73)]"Look at what I used!"[rgb (52, 130, 73)], target="div1")
 
 n4m3 = "Therese" #string
 _4ge = 15 #int
@@ -55,3 +52,5 @@ def dividing_numbers(e):
     num2 = float(document.getElementById('input2').value)
     result = num1 / num2
     display(result, f'The quotient is {result}!', target = "output1")
+
+# Sir, my AI prompts were not working since I did NOT understand anything it said po
