@@ -26,7 +26,7 @@ display(type(fru1ts), target="div1")
 display(type(d4y5), target="div1")
 
 def adding_numbers(e):
-    document.getElementById("output1").innerHTML=""
+    document.getElementById("output1").innerHTML = ""
     num1 = float(document.getElementById('input1').value)
     num2 = float(document.getElementById('input2').value)
     result = num1 + num2
