@@ -30,27 +30,27 @@ def adding_numbers(e):
     num1 = float(document.getElementById('input1').value)
     num2 = float(document.getElementById('input2').value)
     result = num1 + num2
-    display(result, f'The sum is {result}!', target = "output1")
+    display(f'The sum is {result}!', target = "output1")
 
 def subtracting_numbers(e):
     document.getElementById("output1").innerHTML = ""
     num1 = float(document.getElementById('input1').value)
     num2 = float(document.getElementById('input2').value)
     result = num1 - num2
-    display(result, f'The difference is {result}!', target = "output1")
+    display(f'The difference is {result}!', target = "output1")
 
 def multiplying_numbers(e):
     document.getElementById("output1").innerHTML = ""
     num1 = float(document.getElementById('input1').value)
     num2 = float(document.getElementById('input2').value)
     result = num1 * num2
-    display(result, f'The product is {result}!', target = "output1")
+    display(f'The product is {result}!', target = "output1")
 
 def dividing_numbers(e):
     document.getElementById("output1").innerHTML = ""
     num1 = float(document.getElementById('input1').value)
     num2 = float(document.getElementById('input2').value)
     result = num1 / num2
-    display(result, f'The quotient is {result}!', target = "output1")
+    display(f'The quotient is {result}!', target = "output1")
 
 # Sir, my AI prompts were not working since I did NOT understand anything it said po
