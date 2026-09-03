@@ -20,11 +20,11 @@ d4y5 = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satur
 
 
 
-display(type(n4m3), target="div2")
-display(type(_4ge), target="div2")
-display(type(h31g7), target="div2")
-display(type(_countries), target="div2")
-display(type(n3w_s7ud3nt), target="div2")
-display(type(req_keys), target="div2")
-display(type(fru1ts), target="div2")
-display(type(d4y5), target="div2")
+display(type(n4m3), target="div1")
+display(type(_4ge), target="div1")
+display(type(h31g7), target="div1")
+display(type(_countries), target="div1")
+display(type(n3w_s7ud3nt), target="div1")
+display(type(req_keys), target="div1")
+display(type(fru1ts), target="div1")
+display(type(d4y5), target="div1")
