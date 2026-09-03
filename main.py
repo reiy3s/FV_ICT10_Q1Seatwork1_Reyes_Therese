@@ -13,7 +13,7 @@ req_keys = {
     "color": "Lavender",
     "car_brand": "Miata",
     "shoe_size": "36",
-    "best_friend": "Zoey" #DONT TELL HER I LOVE ZOEY <3
+    "best_friend": "Mikmikk"
 } #dictionary
 fru1ts = {mango, melon, longan, banana, grapes} #set
 d4y5 = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") #tuple
