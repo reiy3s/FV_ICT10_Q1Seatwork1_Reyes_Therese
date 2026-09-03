@@ -1,6 +1,9 @@
 from pyscript import display, document
 
+from rich import print
+
 display("Look at what I used!", target="div1")
+print([rgb (52, 130, 73)]"Look at what I used!"[rgb (52, 130, 73)], target="div1")
 
 n4m3 = "Therese" #string
 _4ge = 15 #int
