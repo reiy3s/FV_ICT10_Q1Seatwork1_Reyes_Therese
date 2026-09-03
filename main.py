@@ -1,6 +1,6 @@
 from pyscript import display
 
-# display("Detemine the types below!", target="div1") #literal object
+display("Look at what I used!", target="div1") #literal object
 
 #variable objects
 
@@ -21,10 +21,3 @@ d4y5 = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satur
 
 
 display(type(n4m3), target="div1")
-#display(type(b), target="div1")
-#display(type(c), target="div1")
-#display(type(d), target="div1")
-#display(type(e), target="div1")
-#display(type(f), target="div1")
-#display(type(g), target="div1")
-#display(type(h), target="div1")
