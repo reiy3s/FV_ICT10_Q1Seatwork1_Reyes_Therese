@@ -1,8 +1,6 @@
-from pyscript import display
+from pyscript import display, document
 
-display("Look at what I used!", target="div1") #literal object
-
-#variable objects
+display("Look at what I used!", target="div1")
 
 n4m3 = "Therese" #string
 _4ge = 15 #int
@@ -28,8 +26,8 @@ display(type(fru1ts), target="div1")
 display(type(d4y5), target="div1")
 
 def adding_numbers(e):
-    document.getElementById("numbers").innerHTML="" # clears previous output
-    num1 = float(document.getElementById('input1').value) # get 1st input
-    num2 = float(document.getElementById('input2').value) # get 2nd input
-    result = num1 + num2 # use operator to compute
-    display(result, target = "numbers") #display output in div
+    document.getElementById("output1").innerHTML=""
+    num1 = float(document.getElementById('input1').value)
+    num2 = float(document.getElementById('input2').value)
+    result = num1 + num2
+    display(result, target = "output1")
