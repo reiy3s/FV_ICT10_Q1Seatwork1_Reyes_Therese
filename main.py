@@ -1,11 +1,6 @@
 from pyscript import display, document
 
-body{
-    text-align: center;
-    
-}
-
-display("Look at what I used!", target="div1")
+display("Look at what I used!", target="head")
 
 n4m3 = "Therese" #string
 _4ge = 15 #int

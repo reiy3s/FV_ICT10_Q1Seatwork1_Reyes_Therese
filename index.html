@@ -9,29 +9,86 @@
     
     <title>Seatwork 1</title>
 </head>
+
+<style>
+
+    #container{
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(52, 47, 64, 0.8);
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    body{
+        margin-top: 7%;
+        background-color: #dcd2f7;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        
+        background-image: url("https://i.pinimg.com/736x/f0/e3/6e/f0e36e018604984fe722bd93bcdc23cc.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #h1{
+        color: rgb(198, 189, 222);
+        font-size: 2.5em;
+        margin-top: 20px;
+    }
+
+    #head{
+        color: rgb(198, 189, 222);
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+
+    button{
+        background-color: rgb(198, 189, 222);
+        color: #3b364a;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #div1{
+        color: rgb(198, 189, 222);
+        margin-top: 20px;
+    }
+</style>
+
 <body>
 
-    <h1>Declaring Variables and Identifying Data Types Working with Python Numbers 🐍</h1>
+    <div id="container">
+        <h1 id="h1">Declaring Variables and Identifying Data Types Working with Python Numbers 🐍</h1>
 
-    <div id="div1"></div>
+        <div id="head"><b></b></div>
 
-    <form id="form-div" class="text-center" action="">
+        <div id="div1"></div>
+        <br>
 
-        <input type="text" id="input1" placeholder="Enter a number...">
+        <form id="form-div" class="text-center" action="">
+
+            <input type="text" id="input1" placeholder="Enter a number...">
+            <br><br>
+            <input type="text" id="input2" placeholder="Enter a number...">
+            <br><br>
+
+            <button type="button" py-click="adding_numbers">Add!</button>
+            <button type="button" py-click="subtracting_numbers">Subtract!</button>
+            <button type="button" py-click="multiplying_numbers">Multiply!</button>
+            <button type="button" py-click="dividing_numbers">Divide!</button>
+
+        </form>
+
         <br><br>
-          <input type="text" id="input2" placeholder="Enter a number...">
-        <br><br>
 
-        <button type="button" py-click="adding_numbers">Add!</button>
-        <button type="button" py-click="subtracting_numbers">Subtract!</button>
-        <button type="button" py-click="multiplying_numbers">Multiply!</button>
-        <button type="button" py-click="dividing_numbers">Divide!</button>
-
-    </form>
-
-    <br><br>
-
-    <div id="output1"></div>
+        <div id="output1"></div>
+    
+    </div>
 
     <script type="py" src="main.py"></script>
     
