@@ -1,5 +1,10 @@
 from pyscript import display, document
 
+body{
+    text-align: center;
+    
+}
+
 display("Look at what I used!", target="div1")
 
 n4m3 = "Therese" #string
